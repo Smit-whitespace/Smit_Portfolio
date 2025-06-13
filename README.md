@@ -1,12 +1,96 @@
-# React + Vite
+# 🌟 Smit's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio built using React, Tailwind CSS, and modern web practices. This portfolio showcases my skills, projects, and background in software development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ React
+- 🎨 Tailwind CSS
+- 🔄 React Router
+- 🌙 Theme Toggle (Dark/Light Mode)
+- 📦 Vite
+- 🧠 Lucide Icons
+- 🧪 Git + GitHub for version control
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Folder Structure
+
+src/
+├── assets/ # Images & icons
+├── components/ # Reusable UI components (e.g., ThemeToggle, Header)
+├── pages/ # Page components (e.g., Home, Projects)
+├── App.jsx # Main App component with routes
+├── main.jsx # App entry point
+├── index.css # Tailwind and custom CSS
+public/
+README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🖥️ Live Demo
+
+> [🔗 View Portfolio (deployed link)](https://)
+
+---
+
+## 🛠️ Installation & Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Smit-whitespace/Smit_Portfolio.git
+   cd Smit_Portfolio
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Run the development server
+
+bash
+Copy
+Edit
+npm run dev
+📸 Features
+🌗 Theme Toggle with dynamic icons
+
+💻 Responsive design
+
+🗺️ Page routing using React Router
+
+🎨 Smooth animations via CSS keyframes
+
+🔍 Fully accessible and keyboard navigable
+
+🔧 Customization
+Update your details in Home.jsx, About.jsx, and Projects.jsx
+
+Replace image assets inside src/assets
+
+Adjust styles and animations in index.css
+
+📤 Deployment
+Deployed via GitHub Pages:
+
+bash
+Copy
+Edit
+npm run build
+# follow by GitHub Pages deploy script (e.g. gh-pages or Vite plugin)
+🤝 Contributing
+Contributions are welcome! Fork this repo and submit a PR or suggest ideas via Issues.
+
+📃 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Connect with Me
+LinkedIn: linkedin.com/in/smitkagathara
+
+GitHub: github.com/Smit-whitespace
