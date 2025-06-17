@@ -28,7 +28,7 @@ export const Navbar = () => {
   isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
   )}
   >
-    <div className="container flex items-center justify-between">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between">
       <a className="text-xl font-bold text-primary flex items-center" href="#hero">
         <span className="relative z-10">
           <span className="text-glow text-foreground"> Smit Kagathara</span> Portfolio
@@ -50,8 +50,8 @@ export const Navbar = () => {
       className="md:hidden p-2 text-foreground z-50 "
       aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
       >
-  {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-</button>
+        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+      </button>
 
 
       <div className={cn("fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
