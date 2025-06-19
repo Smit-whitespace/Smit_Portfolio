@@ -36,7 +36,7 @@ Edit
 
 ## 🖥️ Live Demo
 
-> [🔗 View Portfolio (deployed link)](https://)
+> [🔗 View Portfolio (deployed link)](https://) (Will be available shortly! )
 
 ---
 
@@ -87,10 +87,10 @@ npm run build
 🤝 Contributing
 Contributions are welcome! Fork this repo and submit a PR or suggest ideas via Issues.
 
-📃 License
+📃 License 
 This project is licensed under the MIT License.
 
 🙋‍♂️ Connect with Me
-LinkedIn: linkedin.com/in/smitkagathara
 
+LinkedIn: linkedin.com/in/smitkagathara
 GitHub: github.com/Smit-whitespace
