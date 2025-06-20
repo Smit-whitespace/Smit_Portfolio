@@ -90,6 +90,10 @@ Contributions are welcome! Fork this repo and submit a PR or suggest ideas via I
 📃 License 
 This project is licensed under the MIT License.
 
+**Credits:**  
+This portfolio was greatly inspired by the excellent YouTube tutorial by PedroTech.  
+All code written by me.
+
 🙋‍♂️ Connect with Me
 
 LinkedIn: linkedin.com/in/smitkagathara

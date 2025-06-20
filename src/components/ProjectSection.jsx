@@ -22,7 +22,7 @@ const Projects = [
     title: "GitHub Profile Analyzer",
     description:
       "A web-based tool for analyzing GitHub developer profiles — scrapes repositories, extracts key statistics, and generates insights on languages, frameworks, and activity, to assist recruiters in evaluating candidate skills.",
-    image: "/projects/github-analyzer.png",
+    image: "/projects/Github-Profile-Analyzer.png",
     tags: [
       "Java",
       "Spring Boot",
@@ -90,9 +90,9 @@ export const ProjectSection = () => {
                   ) : (
                     <span className="text-sm text-glow flex items-center space-x-1">
                       <ExternalLink className="drop-shadow hover:text-primary transition-colors duration-300" />
-                      <span className="line-through text-primary/60">
-                        Live Demo (Coming Soon!)
-                      </span>
+                      <p><span className="line-through text-primary/60">
+                        Live Demo 
+                      </span> (Will be available shortly!) </p>
                     </span>
                   ) ): null }
 
