@@ -36,7 +36,7 @@ Edit
 
 ## 🖥️ Live Demo
 
-> [🔗 View Portfolio (deployed link)](https://) (Will be available shortly! )
+> [🔗 View Portfolio (deployed link)](https://smit-portfolio-five.vercel.app/) 
 
 ---
 
