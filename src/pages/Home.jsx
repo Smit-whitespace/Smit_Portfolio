@@ -7,6 +7,7 @@ import { SkillsSection } from "../components/skillsSection";
 import { ProjectSection } from "../components/ProjectSection";
 import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export const Home =() =>{
   return <div className="min-h=screen bg-background text-foreground overflow-x-hidden">
@@ -18,6 +19,7 @@ export const Home =() =>{
       <Navbar />
     {/* Main Content */    }
       <main>
+        <Analytics/>
         <MainSection />
         <AboutSection />
         <SkillsSection />
