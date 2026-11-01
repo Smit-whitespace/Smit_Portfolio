@@ -1,100 +1,26 @@
-# 🌟 Smit's Developer Portfolio
+# Smit Kagathara — Software & AI Systems
 
-Welcome to my personal developer portfolio built using React, Tailwind CSS, and modern web practices. This portfolio showcases my skills, projects, and background in software development.
+This repository contains Smit Kagathara's current portfolio. It uses plain HTML, CSS, and JavaScript. Vite builds the files into `dist` for Vercel.
 
----
+## Run locally
 
-## 🚀 Tech Stack
-
-- ⚛️ React
-- 🎨 Tailwind CSS
-- 🔄 React Router
-- 🌙 Theme Toggle (Dark/Light Mode)
-- 📦 Vite
-- 🧠 Lucide Icons
-- 🧪 Git + GitHub for version control
-
----
-
-## 📂 Folder Structure
-
-src/
-├── assets/ # Images & icons
-├── components/ # Reusable UI components (e.g., ThemeToggle, Header)
-├── pages/ # Page components (e.g., Home, Projects)
-├── App.jsx # Main App component with routes
-├── main.jsx # App entry point
-├── index.css # Tailwind and custom CSS
-public/
-README.md
-
-yaml
-Copy
-Edit
-
----
-
-## 🖥️ Live Demo
-
-> [🔗 View Portfolio (deployed link)](https://smit-portfolio-five.vercel.app/) 
-
----
-
-## 🛠️ Installation & Setup
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/Smit-whitespace/Smit_Portfolio.git
-   cd Smit_Portfolio
-Install dependencies
-
-bash
-Copy
-Edit
-npm install
-Run the development server
-
-bash
-Copy
-Edit
+```bash
+npm ci
 npm run dev
-📸 Features
-🌗 Theme Toggle with dynamic icons
+```
 
-💻 Responsive design
+## Build
 
-🗺️ Page routing using React Router
-
-🎨 Smooth animations via CSS keyframes
-
-🔍 Fully accessible and keyboard navigable
-
-🔧 Customization
-Update your details in Home.jsx, About.jsx, and Projects.jsx
-
-Replace image assets inside src/assets
-
-Adjust styles and animations in index.css
-
-📤 Deployment
-Deployed via GitHub Pages:
-
-bash
-Copy
-Edit
+```bash
 npm run build
-# follow by GitHub Pages deploy script (e.g. gh-pages or Vite plugin)
-🤝 Contributing
-Contributions are welcome! Fork this repo and submit a PR or suggest ideas via Issues.
+```
 
-📃 License 
-This project is licensed under the MIT License.
+The build output is `dist`. Vercel can use the Vite preset, `npm run build`, and `dist` as its output directory.
 
-**Credits:**  
-This portfolio was greatly inspired by the excellent YouTube tutorial by PedroTech.  
-All code written by me.
+## Files
 
-🙋‍♂️ Connect with Me
+- `index.html`: content and page structure
+- `styles.css`: themes, layout, and motion
+- `script.js`: interactions, scrolling, and cursor
 
-LinkedIn: linkedin.com/in/smitkagathara
-GitHub: github.com/Smit-whitespace
+The previous college portfolio remains available in the Git history before this update.

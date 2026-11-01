@@ -1,13 +1,132 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smit's Portfolio Website</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b101a">
+  <meta name="description" content="Smit Kagathara builds Python backends, document intelligence workflows, and local-LLM retrieval systems.">
+  <title>Smit Kagathara — Software & AI Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <div class="cursor" aria-hidden="true"><div class="cursor-frame"><span class="cursor-corner"></span><span class="cursor-corner"></span><span class="cursor-corner"></span><span class="cursor-corner"></span></div><span class="cursor-core"></span><span class="cursor-action">↗</span></div>
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Smit Kagathara, back to top"><span class="brand-icon">SK<span>↗</span></span><span>SMIT KAGATHARA</span></a>
+    <nav aria-label="Main navigation"><a href="#proof">Proof</a><a href="#trajectory">Trajectory</a><a href="#background">Background</a><a href="#connect">Connect</a></nav>
+    <div class="theme-control">
+      <button class="mode" type="button" aria-label="Choose theme, current: Midnight" aria-expanded="false" aria-controls="theme-options"><span aria-hidden="true">◐</span><span class="mode-label">THEME</span></button>
+      <div class="theme-options" id="theme-options" role="group" aria-label="Color theme" hidden>
+        <button type="button" data-theme-choice="midnight" aria-pressed="true"><span class="theme-swatch swatch-midnight" aria-hidden="true"></span>Midnight</button>
+        <button type="button" data-theme-choice="studio" aria-pressed="false"><span class="theme-swatch swatch-studio" aria-hidden="true"></span>Studio</button>
+        <button type="button" data-theme-choice="blueprint" aria-pressed="false"><span class="theme-swatch swatch-blueprint" aria-hidden="true"></span>Blueprint</button>
+        <button type="button" data-theme-choice="crimson" aria-pressed="false"><span class="theme-swatch swatch-crimson" aria-hidden="true"></span>Crimson</button>
+      </div>
+    </div>
+  </header>
+  <nav class="scroll-rail" aria-label="Page progress">
+    <span class="scroll-rail-label" aria-live="off">01 / INTRO</span>
+    <a href="#top" data-rail="top" aria-label="Intro" aria-current="location"></a>
+    <a href="#proof" data-rail="proof" aria-label="Selected work"></a>
+    <a href="#trajectory" data-rail="trajectory" aria-label="Direction"></a>
+    <a href="#background" data-rail="background" aria-label="Background"></a>
+    <a href="#connect" data-rail="connect" aria-label="Connect"></a>
+  </nav>
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <div class="hero-meta"><span class="live-dot"></span> SOFTWARE ENGINEER <span class="sep">/</span> GANDHINAGAR, INDIA <span class="hero-num">PORTFOLIO / 2026</span></div>
+      <div class="hero-grid">
+        <div>
+          <p class="overline">PYTHON BACKENDS / DOCUMENT INTELLIGENCE / LOCAL AI</p>
+          <h1>Make complex<br>information <em>usable.</em></h1>
+          <p class="hero-desc">I’m Smit Kagathara. I build Python systems that extract, retrieve, score, and explain information. I’m growing toward reliable agentic AI.</p>
+          <div class="hero-actions"><a class="solid-button" href="#proof">Explore the evidence <span aria-hidden="true">↗</span></a><a class="plain-link" href="https://github.com/Smit-whitespace" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="system-map" aria-label="Diagram of Smit's current work and future direction">
+          <div class="map-header"><span>SYSTEM MAP</span><span>01 / 04</span></div>
+          <div class="map-grid">
+            <div class="map-cell"><span class="map-index">01 — INPUT</span><strong>PDFs<br>codebases</strong><small>WORKING WITH REAL DATA</small></div>
+            <div class="map-cell"><span class="map-index">02 — PROCESS</span><strong>Extract<br>retrieve</strong><small>PYTHON / FASTAPI</small></div>
+            <div class="map-cell"><span class="map-index">03 — OUTPUT</span><strong>Score<br>explain</strong><small>INSPECTABLE RESULTS</small></div>
+            <div class="map-cell map-next"><span class="map-index">04 — NEXT</span><strong>Evaluate<br>agents</strong><small>LEARNING DIRECTION, NOT A CLAIM</small></div>
+          </div>
+          <div class="map-footer"><span>BUILT WORK</span><span class="map-line"></span><span>FUTURE FOCUS ↗</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO INSPECT THE WORK</span><span>↓</span></div>
+    </section>
+
+    <section class="thesis" aria-labelledby="thesis-title"><div class="wrap thesis-grid"><p class="eyebrow">THE THROUGH-LINE</p><h2 id="thesis-title">Useful AI needs more than a model call. <span>It needs a clear path from input to evidence.</span></h2><p>My work today is in document workflows, retrieval, and backend systems. My next step is to apply that foundation to agents people can test and trust.</p></div></section>
+
+    <section class="proof wrap section" id="proof" aria-labelledby="proof-title">
+      <div class="section-top"><div><p class="eyebrow">01 / SELECTED EVIDENCE</p><h2 id="proof-title">Work you can inspect<span class="point">.</span></h2></div><p>Each project shows the problem, my contribution, and what is still open. No invented results.</p></div>
+      <div class="project-list">
+        <article class="project" id="repository-intelligence">
+          <div class="project-visual repo-visual" aria-hidden="true"><div class="visual-top"><span>REPOSITORY INTELLIGENCE</span><span>LOCAL FIRST</span></div><div class="visual-path"><span>REPOSITORY</span><i>→</i><span>INDEX</span><i>→</i><span>RETRIEVE</span><i>→</i><span>LOCAL LLM</span></div><div class="visual-foot">CODEBASE QUESTIONS / SEMANTIC RETRIEVAL</div></div>
+          <div class="project-copy"><div class="project-head"><span class="tag">01 / DEVELOPER TOOLING</span><span class="status">BUILT FOUNDATION</span></div><h3>Repository Intelligence Platform</h3><p>An offline-first repository assistant. I built the core backend foundation for indexing and semantic retrieval to support codebase questions with local LLMs.</p><div class="project-facts"><div><span>MY WORK</span><p>Organized the indexing and retrieval components.</p></div><div><span>STACK</span><p>Python, FastAPI, ChromaDB, Ollama.</p></div><div><span>DEVELOPMENT</span><p>Used Ruff, MyPy, and Pytest.</p></div></div><a class="project-link" href="https://github.com/Smit-whitespace/repository-intelligence-platform" target="_blank" rel="noopener noreferrer">Inspect repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project" id="issue-triage">
+          <div class="project-visual triage-visual" aria-hidden="true">
+            <div class="visual-top"><span>ISSUE TRIAGE</span><span>LOCAL MODEL</span></div>
+            <div class="triage-flow">
+              <div class="triage-input"><small>ISSUE REPORT</small><strong>Title + description</strong></div>
+              <span class="triage-arrow">↓</span>
+              <div class="triage-decision"><small>STRUCTURED TRIAGE</small><strong>Category · priority · confidence</strong></div>
+              <span class="triage-arrow">↓</span>
+              <div class="triage-branches">
+                <div><small>INVESTIGATE</small><strong>Read-only code search</strong></div>
+                <div><small>RESPOND</small><strong>Evidence + draft</strong></div>
+              </div>
+            </div>
+            <div class="visual-foot">VALIDATE → ROUTE → REVIEW</div>
+          </div>
+          <div class="project-copy">
+            <div class="project-head"><span class="tag">02 / AGENTIC AI WORKFLOW</span><span class="status">COMPLETED LOCAL PROTOTYPE</span></div>
+            <h3>Codebase Issue Triage Agent</h3>
+            <p>A local LLM workflow that assesses software issues and decides when to inspect a repository. It returns structured triage and evidence for human review.</p>
+            <div class="project-facts">
+              <div><span>DECISION</span><p>LangGraph routes each issue to read-only repository search or directly to a result.</p></div>
+              <div><span>OUTPUT</span><p>Pydantic validates category, priority, confidence, rationale, labels, and a draft response.</p></div>
+              <div><span>STACK</span><p>Python, LangChain, Ollama, LangGraph, Pydantic, and Pytest.</p></div>
+            </div>
+            <details class="triage-details">
+              <summary>Inside the workflow <span aria-hidden="true">+</span></summary>
+              <ol>
+                <li>The Python CLI accepts a validated issue title and description.</li>
+                <li>LangChain calls a local Ollama model. Pydantic validates its structured JSON result.</li>
+                <li>LangGraph routes the issue according to the repository-investigation decision.</li>
+                <li>When needed, read-only text search records matching file paths, lines, and excerpts.</li>
+                <li>The final JSON includes triage, investigation status, evidence, labels, and a draft response for review.</li>
+              </ol>
+              <p>The workflow suggests an assessment. A person reviews it before acting.</p>
+            </details>
+            <a class="project-link" href="https://github.com/Smit-whitespace/Codebase-Issue-Triage-Agent" target="_blank" rel="noopener noreferrer">Inspect repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="project" id="corporate-actions">
+          <div class="project-visual pdf-visual" aria-hidden="true"><div class="visual-top"><span>CORPORATE ACTIONS</span><span>EXPLAINABLE</span></div><div class="pdf-sheet"><div class="sheet-top">SOURCE PDF</div><div class="sheet-row"></div><div class="sheet-row short"></div><div class="sheet-row"></div><div class="sheet-label">TEXT + TABLE EXTRACTION</div></div><div class="score-shape"><span>05</span><small>RULE FACTORS</small></div><div class="visual-foot">UPLOAD / NSE–BSE URL → EXTRACTION → SCORE</div></div>
+          <div class="project-copy"><div class="project-head"><span class="tag">03 / DOCUMENT INTELLIGENCE</span><span class="status">BUILT & TESTED</span></div><h3>Corporate Action Impact Ranking</h3><p>A FastAPI dashboard and JSON API that process corporate-action PDFs. A rule-based, five-factor model produces an explainable impact ranking.</p><div class="project-facts"><div><span>INPUTS</span><p>Uploads or NSE/BSE URLs.</p></div><div><span>METHOD</span><p>Text and table extraction with pdfplumber.</p></div><div><span>TESTS</span><p>Pytest covers extraction, scoring, API, and dashboard behavior.</p></div></div><a class="project-link" href="https://github.com/Smit-whitespace/corporate-action-impact-ranking-system" target="_blank" rel="noopener noreferrer">Inspect repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project" id="client-work">
+          <div class="project-visual lab-visual" aria-hidden="true"><div class="visual-top"><span>CLIENT DELIVERY</span><span>V1</span></div><div class="lab-flow"><span>LAB DATA</span><b>↘</b><strong>STRUCTURED<br>REPORT</strong><b>↗</b><span>HANDOFF</span></div><div class="visual-foot">PRIVATE CLIENT PROJECT / SOURCE HANDED OVER</div></div>
+          <div class="project-copy"><div class="project-head"><span class="tag">04 / FREELANCE</span><span class="status">DELIVERED V1</span></div><h3>AI-Powered Lab Report Generator</h3><p>I delivered a V1 for a diagnostic-laboratory workflow. It automates structured report generation with Python, FastAPI, and LLM APIs.</p><div class="project-facts"><div><span>BOUNDARY</span><p>The client received the source code. I do not present private code or results here.</p></div></div><span class="private-note">PRIVATE WORK — DESCRIPTION FROM MY RESUME</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="work-band"><div class="wrap work-band-grid"><div><p class="eyebrow">ALSO IN PRODUCTION WORK</p><h2>From prompts to backtesting.</h2></div><div class="work-band-items"><div><b>15 categories</b><p>Restructured prompts for a corporate-action PDF workflow.</p></div><div><b>13 categories</b><p>Developing an alternative PDF-classification pipeline. Optimization and frontend integration continue.</p></div><div><b>Python systems</b><p>Implementing features and fixes in a backtesting component with SQLite and DuckDB.</p></div><div><b><a href="https://gmp360.in" target="_blank" rel="noopener noreferrer">gmp360.in ↗</a></b><p>Built and published the site from initial requirements with AI-assisted development.</p></div></div></div></section>
+
+    <section class="trajectory wrap section" id="trajectory"><div class="section-top"><div><p class="eyebrow">02 / DIRECTION</p><h2>Where I’m going<span class="point">.</span></h2></div><p>Agentic AI is a direction I’m working toward. I will not present it as expertise I have already earned.</p></div><div class="trajectory-grid"><div class="trajectory-now"><span>NOW / PRACTICED</span><h3>A useful foundation.</h3><ul><li>Document extraction and classification workflows</li><li>Local-LLM retrieval and codebase indexing</li><li>Structured issue triage with conditional repository investigation</li><li>Python APIs, tests, and data tools</li></ul></div><div class="trajectory-next"><span>NEXT / LEARNING GOALS</span><h3>More reliable agents.</h3><ul><li>Evaluate task success, errors, and failure modes</li><li>Design bounded tools and human review points</li><li>Trace cost, latency, and behavior in real workflows</li></ul><p>These are goals, not completed projects.</p></div></div></section>
+
+    <section class="background section" id="background"><div class="wrap background-grid"><div><p class="eyebrow">03 / BACKGROUND</p><h2>Built across layers<span class="point">.</span></h2><p class="background-intro">I work where practical backend engineering meets messy, real-world information.</p></div><div class="timeline"><div class="time-item"><span>AUG 2026 — PRESENT</span><div><h3>Software Engineer <em>Adwealth Pvt. Ltd.</em></h3><p>Corporate-action documents, PDF classification, Python backtesting, and gmp360.in.</p></div></div><div class="time-item"><span>JAN — JUN 2026</span><div><h3>Embedded Systems Intern <em>eInfochips — An Arrow Company</em></h3><p>C, Git CLI, Linux, low-level debugging, pointer handling, and memory-management fundamentals.</p></div></div><div class="time-item"><span>MAY 2026</span><div><h3>B.E. Computer Engineering <em>LDRP Institute of Technology and Research</em></h3><p>CGPA: 7.99. Gandhinagar, India.</p></div></div></div></div><div class="wrap tools-line"><span>TOOLS I USE</span><p>Python · SQL · FastAPI · PostgreSQL · SQLite · DuckDB · ChromaDB · Ollama · LangGraph · Pydantic · Docker · Pytest · Ruff · MyPy · Git · Linux</p></div></section>
+
+    <section class="connect wrap section" id="connect"><p class="eyebrow">04 / CONNECT</p><div class="connect-grid"><h2>Let’s build things<br>worth trusting<span class="point">.</span></h2><div><p>I’m interested in backend and AI engineering roles that value clear evidence, thoughtful systems, and sustainable delivery.</p><div class="connect-actions"><a class="solid-button" href="https://www.linkedin.com/in/smitkagathara" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a class="plain-link" href="https://github.com/Smit-whitespace" target="_blank" rel="noopener noreferrer">See GitHub <span aria-hidden="true">↗</span></a></div></div></div></section>
+  </main>
+  <footer class="footer wrap"><span>© 2026 SMIT KAGATHARA</span><span>BUILT WITH EVIDENCE, NOT HYPE.</span><a href="#top">BACK TO TOP ↑</a></footer>
+</body>
 </html>
